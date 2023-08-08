@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Apple Braille";
+}
+
+.navbar {
+  background-color: orange;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+.navbar div {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.navbar img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.beer_frame {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid black;
+}
+.beer_frame h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 40px;
+  line-height: 1.5rem;
+}
+.beer_frame p {
+  color: orange;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.beer_frame p:nth-of-type(2) {
+  color: black;
+  font-weight: 400;
+}
+.beer_frame img {
+  width: 95px;
+  height: 191px;
+  object-fit: contain;
+  margin: 35px;
+}
+.beer_frame a {
+  background-color: orange;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 5% 10%;
+  color: #fff;
+}
+
+.beer_detail {
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.beer_detail h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.beer_detail p {
+  color: orange;
+  font-size: 2rem;
+}
+.beer_detail p:nth-of-type(2) {
+  color: black;
+  margin-bottom: 30px;
+}
+.beer_detail .detail_img {
+  max-height: 60vh;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.beer_detail a {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=App.css.map */
