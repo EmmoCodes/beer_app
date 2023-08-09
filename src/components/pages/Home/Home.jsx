@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import AllBeers from '../../../assets/img/Group 4.png'
 import RandomBeer from '../../../assets/img/Group 5.png'
 import './Home.scss'
@@ -9,7 +8,7 @@ function Home() {
     <div>
       <section className={'landing_section'}>
         <article>
-          <Link to={'/allbeers'}>
+          <Link to={'/all'}>
             <img src={AllBeers} alt="" />
           </Link>
           <p>
